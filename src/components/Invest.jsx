@@ -39,10 +39,13 @@ export default function Invest({ fundDetails, change, aumchange }) {
         {" "}
         <h1 className="text-white text-2xl text-bold py-[20px]">Overview</h1>
         <button
-          class="h-[38px] mx-[30px] bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-400 hover:to-orange-500 text-white font-bold px-4 py-2 rounded-lg"
+          class="h-[38px] mx-[30px] mr-[5px] bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-400 hover:to-orange-500 text-white font-bold px-4 py-2 rounded-lg"
           onClick={openModal}
         >
           Invest
+        </button>
+        <button class="h-[38px] mr-[5px] bg-gradient-to-r from-green-300 to-green-400 hover:from-orange-400 hover:to-orange-500 text-white font-bold px-4 py-2 rounded-lg">
+          Invest using Superfluid
         </button>
         <Withdraw />
       </div>

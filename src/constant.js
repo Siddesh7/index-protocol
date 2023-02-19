@@ -1,6 +1,6 @@
 export const funds = [
   {
-    fundName: "Canto Traders Funds",
+    fundName: "Mantle Traders Funds",
     fundAddress: "0xEd48A72590d4406f80AE2010125cd80d47044c0d",
     aum: "$262,000",
     change: "+20%",
@@ -9,14 +9,14 @@ export const funds = [
       "Think of it as advanced HODLing - a smarter, more strategic approach to investing in the world of cryptocurrency. With our Simple Rebalance Strategy, you can stay ahead of the game and build a portfolio that works for you.",
     allocation: [
       {
-        asset: "Canto Inu",
+        asset: "Inu",
         share: "50%",
         amount: 10000,
         value: "$1",
         total: "$1000",
       },
       {
-        asset: "Canto Doge",
+        asset: "Doge",
         share: "50%",
         amount: 100000,
         value: "$0.1",
@@ -33,14 +33,14 @@ export const funds = [
     description: "Complete degen strategy",
     allocation: [
       {
-        asset: "Canto Inu",
+        asset: "Inu",
         share: "50%",
         amount: 10000,
         value: "$1",
         total: "$1000",
       },
       {
-        asset: "Canto Doge",
+        asset: "Doge",
         share: "50%",
         amount: 100000,
         value: "$0.1",
